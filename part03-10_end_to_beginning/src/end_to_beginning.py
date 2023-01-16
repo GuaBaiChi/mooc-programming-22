@@ -1,18 +1,24 @@
 # Write your solution here
 
 
-word = input("Please type in a string: ")
-counter = len(word)-1
-# remember array index starts at 0.
-# so for abc, length is '2'
 
-while counter >= 0:
-  print(word[counter])
-  counter = counter - 1
-  # counter will go from
-  # word[2]
-  # word[1]
-  # word[0]
+word = input("Please type in a string: ")
+# word = input("enter word")
+for c in word[::-1]:
+    print(c)
+
+# word = input("Please type in a string: ")
+# counter = len(word)-1
+# # remember array index starts at 0.
+# # so for abc, length is '2'
+
+# while counter >= 0:
+#   print(word[counter])
+#   counter = counter - 1
+#   # counter will go from
+#   # word[2]
+#   # word[1]
+#   # word[0]
 
 
 
